@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">ວິດີໂອ</string>
+    <!--Lao language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">ຮູບພິມລ້າສຸດ</string>
     <string name="lets_you_in">ສະບາຍດີໄດ້</string>
     <string name="continue_with_facebook">ສືບຕໍ່ການດຳເນີນໍາໄປກັບ Facebook</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">ຮູບພິມເລີ່ມຕົ້ນ</string>
     <string name="onboarding_gradient">ຈຸດລະສັດພິມເລີ່ມຕົ້ນ</string>
     <string name="get_started">ເລີ່ມຕົ້ນ</string>
-    <string name="welcome_to_mova">ຍິນດີເມວມວິດີໂອ</string>
+    <string name="welcome_to_mova">ຍິນດີເມວມວິດີໂອ App Movie &amp; Trailers</string>
     <string name="onboarding_description">ເວລາດິນຕີສີຂຶ້ນທີ່ສະຕິພາບຂອງສານລະບົບເພື່ອລະພາບວັນຂະຫຍາຍ!</string>
     <string name="app_logo">ໂລໂກໂຄອັນ</string>
     <string name="home">ຫນ້າຫລັກ</string>
@@ -99,4 +100,6 @@
     <string name="english">ອັງກິດ</string>
     <string name="logout_message">ທ່ານຕ້ອງການອອກຈາກລະບົບບໍ?</string>
     <string name="yes_logout">ຮອດ, ອອກຈາກລະບົບ</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">ບັນຊີ</string>
 </resources>

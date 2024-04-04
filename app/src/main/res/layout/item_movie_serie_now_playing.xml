@@ -20,23 +20,25 @@
         android:orientation="vertical">
 
         <com.google.android.material.card.MaterialCardView
-            android:layout_width="40dp"
+            android:layout_width="45dp"
             android:layout_height="25dp"
             android:layout_margin="10dp"
             app:cardBackgroundColor="@color/red"
             app:cardCornerRadius="8dp"
             app:cardElevation="1dp"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:id="@+id/voteAverageTV"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
                 android:gravity="center"
                 android:textColor="@color/white"
                 android:textFontWeight="500"
                 android:textSize="12sp"
+                app:drawableStartCompat="@drawable/star_yellow"
                 tools:text="9.8" />
 
         </com.google.android.material.card.MaterialCardView>

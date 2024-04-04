@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">ภาพยนตร์</string>
+    <!--Thailand language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">รูปภาพการเข้าสู่ระบบ</string>
     <string name="lets_you_in">ช่วยให้คุณเข้าไป</string>
     <string name="continue_with_facebook">ดำเนินการต่อด้วย Facebook</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">รูปภาพการนำเสนอ</string>
     <string name="onboarding_gradient">ความเรียบเนียนในการนำเสนอ</string>
     <string name="get_started">เริ่มต้น</string>
-    <string name="welcome_to_mova">ยินดีต้อนรับสู่ Mova</string>
+    <string name="welcome_to_mova">ยินดีต้อนรับสู่ App Movie &amp; Trailers</string>
     <string name="onboarding_description">แอปสตรีมมิ่งภาพยนตร์ยอดเยี่ยมของศตวรรษเพื่อทำให้วันของคุณดีขึ้น!</string>
     <string name="app_logo">โลโก้แอป</string>
     <string name="home">หน้าแรก</string>
@@ -99,4 +100,6 @@
     <string name="english">ภาษาอังกฤษ</string>
     <string name="logout_message">คุณต้องการออกจากระบบหรือไม่?</string>
     <string name="yes_logout">ใช่ ออกจากระบบ</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">บัญชี</string>
 </resources>

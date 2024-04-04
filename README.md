@@ -6,7 +6,7 @@
 <img src="https://github.com/muratozturk5/Mova/blob/main/Screenshots/logo.png" align="left"
 width="250" hspace="10" vspace="10">
    
-Mova is a TMDb mobile add that list movies and series, shows their details, you can even watch trailers, save movies to list for watch later</br></br></br></br></br></br></br></br></br></br>
+Mova is a TMDb mobile add that list Movie & Trailerss and series, shows their details, you can even watch trailers, save Movie & Trailerss to list for watch later</br></br></br></br></br></br></br></br></br></br>
 
 ## 📎 Releases
 ***Try latest Mova App APK in Releases Page👇***
@@ -15,7 +15,7 @@ Mova is a TMDb mobile add that list movies and series, shows their details, you 
 
 ***Try latest Mova App in Google Play👇***
 
-[![](https://img.shields.io/badge/Mova-Google%20Play-brightgreen?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.hoangtien2k3.movie)
+[![](https://img.shields.io/badge/Mova-Google%20Play-brightgreen?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.hoangtien2k3.Movie & Trailers)
 
 
 ## 🛠 Built With
@@ -33,7 +33,7 @@ Mova is a TMDb mobile add that list movies and series, shows their details, you 
 - [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
 - [Coil](https://coil-kt.github.io/coil/)
 - [Youtube Player](https://github.com/PierfrancescoSoffritti/android-youtube-player)
-- [TheMovieDb(Tmdb) API](https://developers.themoviedb.org/3)
+- [TheMovie & TrailersDb(Tmdb) API](https://developers.theMovie & Trailersdb.org/3)
 
 ## 📷 Light Theme Screenshots
 
@@ -58,7 +58,7 @@ Mova is a TMDb mobile add that list movies and series, shows their details, you 
 
 ## 🎨 Design 
 
-[![Figma](https://img.shields.io/badge/Mova-Figma-black?style=for-the-badge&logo=figma)](https://www.figma.com/community/file/1216311757237992126/Mova---Movie-Streaming-App-UI-Kit)
+[![Figma](https://img.shields.io/badge/Mova-Figma-black?style=for-the-badge&logo=figma)](https://www.figma.com/community/file/1216311757237992126/Mova---Movie & Trailers-Streaming-App-UI-Kit)
 </br>
 
 ## ♥ Contributions 

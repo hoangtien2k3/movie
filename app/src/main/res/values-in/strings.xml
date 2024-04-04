@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">फिल्म</string>
+    <!--India language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">लॉगिन छवि</string>
     <string name="lets_you_in">आपको अंदर लेता है</string>
     <string name="continue_with_facebook">फेसबुक के साथ जारी रखें</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">परिचय छवि</string>
     <string name="onboarding_gradient">परिचय ग्रेडिएंट</string>
     <string name="get_started">शुरू करें</string>
-    <string name="welcome_to_mova">मोवा में आपका स्वागत है</string>
+    <string name="welcome_to_mova">मोवा में आपका स्वागत App Movie &amp; Trailers</string>
     <string name="onboarding_description">शताब्दी के सर्वश्रेष्ठ मूवी स्ट्रीमिंग ऐप, आपके दिनों को और भी शानदार बनाने के लिए!</string>
     <string name="app_logo">ऐप लोगो</string>
     <string name="home">होम</string>
@@ -99,4 +100,6 @@
     <string name="english">अंग्रेज़ी</string>
     <string name="logout_message">क्या आप वाकई लॉग आउट करना चाहते हैं?</string>
     <string name="yes_logout">हां, लॉग आउट करें</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">खाता</string>
 </resources>

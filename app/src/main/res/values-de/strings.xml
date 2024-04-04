@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Film</string>
+    <!--Gemaner language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">Anmeldebild</string>
     <string name="lets_you_in">Lässt dich rein</string>
     <string name="continue_with_facebook">Weiter mit Facebook</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">Einführungsbild</string>
     <string name="onboarding_gradient">Einführungsgradient</string>
     <string name="get_started">Loslegen</string>
-    <string name="welcome_to_mova">Willkommen bei Mova</string>
+    <string name="welcome_to_mova">Willkommen bei App Movie &amp; Trailers</string>
     <string name="onboarding_description">Die beste Film-Streaming-App des Jahrhunderts, um Ihre Tage großartig zu machen!</string>
     <string name="app_logo">App-Logo</string>
     <string name="home">Zuhause</string>
@@ -99,4 +100,6 @@
     <string name="english">Englisch</string>
     <string name="logout_message">Möchten Sie sich wirklich abmelden?</string>
     <string name="yes_logout">Ja, ausloggen</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">Konto</string>
 </resources>

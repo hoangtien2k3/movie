@@ -28,6 +28,10 @@ class LanguageFragment : Fragment(R.layout.fragment_language) {
 
     fun initUI() {
         with(binding) {
+            backButton.setOnClickListener {
+                findNavController().popBackStack()
+            }
+
             with(viewModel) {
 
             }

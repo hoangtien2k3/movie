@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Movie</string>
+    <!--Vietnamese language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">Ảnh Đăng Nhập</string>
     <string name="lets_you_in">Cho Phép Bạn Đăng Nhập</string>
     <string name="continue_with_facebook">Tiếp Tục với Facebook</string>
@@ -8,7 +9,7 @@
     <string name="continue_with_google">Tiếp Tục với Google</string>
     <string name="back_button">Nút Quay Lại</string>
     <string name="or">hoặc</string>
-    <string name="sign_in_with_password">Đăng Nhập bằng Mật Khẩu</string>
+    <string name="sign_in_with_password">Đăng Nhập bằng Tài Khoản</string>
     <string name="dont_have_account">Bạn Chưa Có Tài Khoản?</string>
     <string name="sign_up">Đăng Ký</string>
     <string name="create_your_account">Tạo Tài Khoản Của Bạn</string>
@@ -22,7 +23,7 @@
     <string name="onboarding_image">Hình Ảnh Giới Thiệu</string>
     <string name="onboarding_gradient">Điều chỉnh màu giới thiệu</string>
     <string name="get_started">Bắt Đầu</string>
-    <string name="welcome_to_mova">Chào Mừng Đến Với Mova</string>
+    <string name="welcome_to_mova">Chào Mừng Đến Với App Movie &amp; Trailers</string>
     <string name="onboarding_description">Ứng dụng phim hàng đầu thế kỷ để làm cho ngày của bạn trở nên tuyệt vời!</string>
     <string name="app_logo">Logo Ứng Dụng</string>
     <string name="home">Trang Chủ</string>
@@ -100,4 +101,6 @@
     <string name="english">Tiếng Anh</string>
     <string name="logout_message">Bạn có chắc chắn muốn đăng xuất không?</string>
     <string name="yes_logout">Có, Đăng Xuất</string>
+    <string name="movie_trailers"><![CDATA[: Phim & Video]]></string>
+    <string name="account_name">Tài Khoản</string>
 </resources>

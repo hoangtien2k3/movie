@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">映画</string>
+    <!--Japanes language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">ログイン画像</string>
     <string name="lets_you_in">あなたを入れる</string>
     <string name="continue_with_facebook">Facebookで続行</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">オンボーディング画像</string>
     <string name="onboarding_gradient">オンボーディンググラデーション</string>
     <string name="get_started">始めよう</string>
-    <string name="welcome_to_mova">Movaへようこそ</string>
+    <string name="welcome_to_mova">Movie &amp; Trailers へようこそ</string>
     <string name="onboarding_description">世紀の最高の映画ストリーミングアプリで、あなたの日々を素晴らしいものにします！</string>
     <string name="app_logo">アプリのロゴ</string>
     <string name="home">ホーム</string>
@@ -76,7 +77,7 @@
     <string name="comments">コメント</string>
     <string name="images">画像</string>
     <string name="smilar">似ている</string>
-    <string name="download_desc">この機能は映画をダウンロードしません...ただし、Roomデータベースに保存されます</string>
+    <string name="download_desc">この機能は映画をダウンロードしません…ただし、Roomデータベースに保存されます</string>
     <string name="hide">非表示</string>
     <string name="added_to_list">リストに追加されました</string>
     <string name="empty_download_desc">まだ何もダウンロードしていないようです</string>
@@ -99,4 +100,6 @@
     <string name="english">英語</string>
     <string name="logout_message">ログアウトしてもよろしいですか？</string>
     <string name="yes_logout">はい、ログアウト</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">アカウント</string>
 </resources>

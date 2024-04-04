@@ -70,7 +70,9 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                     userInfo.collectLatest { response ->
                         when (response) {
                             is Resource.Loading -> {
+
                             }
+
                             is Resource.Error -> {
                                 requireActivity().showToast(
                                     getString(R.string.error),
@@ -79,12 +81,13 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                                 )
 
                             }
+
                             is Resource.Success -> {
                                 emailTv.text = response.data.email
-                                displayNameTv.text = response.data.displayName
+                                displayNameTv.text = response.data.displayName ?: getString(R.string.account_name)
                                 userIv.loadImage(
                                     response.data.photoUrl.toString(),
-                                    imageTypeEnum = ImageTypeEnum.LOCAL
+                                    imageTypeEnum = ImageTypeEnum.CREDIT
                                 )
                             }
                         }
@@ -97,6 +100,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                         when (response) {
                             is Resource.Loading -> {
                             }
+
                             is Resource.Error -> {
                                 requireActivity().showToast(
                                     getString(R.string.error),
@@ -105,6 +109,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                                 )
 
                             }
+
                             is Resource.Success -> {
                                 darkModeToggle.isChecked = response.data
                                 if (response.data) {
@@ -124,6 +129,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                         when (response) {
                             is Resource.Loading -> {
                             }
+
                             is Resource.Error -> {
                                 requireActivity().showToast(
                                     getString(com.hoangtien2k3.movie.R.string.error),
@@ -132,6 +138,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
                                 )
 
                             }
+
                             is Resource.Success -> {
                                 currentLanguageTv.text = response.data
                             }

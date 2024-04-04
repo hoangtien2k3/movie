@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/background"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".ui.profile.ProfileFragment">
 
 
@@ -52,8 +52,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_margin="10dp"
-        app:cardCornerRadius="50dp"
         app:cardBackgroundColor="@color/background"
+        app:cardCornerRadius="50dp"
         app:cardElevation="0dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,8 +63,10 @@
             android:id="@+id/userIv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/custom_round_radio_btn"
             android:scaleType="centerCrop"
             android:src="@drawable/profile" />
+
     </com.google.android.material.card.MaterialCardView>
 
 
@@ -79,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/userCard"
-        tools:text="Murat ÖZTÜRK" />
+        tools:text="Account Name" />
 
     <TextView
         android:id="@+id/emailTv"
@@ -106,6 +108,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/profileLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -117,8 +120,8 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
-                    android:src="@drawable/profile" />
+                    android:src="@drawable/profile"
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -139,6 +142,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/notificationLayoutn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -150,8 +154,8 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
-                    android:src="@drawable/notification" />
+                    android:src="@drawable/notification"
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -172,6 +176,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/downloadLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -183,8 +188,8 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
-                    android:src="@drawable/download" />
+                    android:src="@drawable/download"
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -205,6 +210,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/securityLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -215,10 +221,10 @@
 
                 <ImageView
                     android:layout_width="28dp"
-                    app:tint="@color/text_color"
-
                     android:layout_height="28dp"
-                    android:src="@drawable/shield_done" />
+
+                    android:src="@drawable/shield_done"
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -250,10 +256,10 @@
 
                 <ImageView
                     android:layout_width="28dp"
-                    app:tint="@color/text_color"
-
                     android:layout_height="28dp"
-                    android:src="@drawable/more_circle" />
+
+                    android:src="@drawable/more_circle"
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -294,9 +300,9 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
+                    android:src="@drawable/dark_theme"
 
-                    android:src="@drawable/dark_theme" />
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -312,14 +318,15 @@
                 <CheckBox
                     android:id="@+id/darkModeToggle"
                     android:layout_width="wrap_content"
-                    android:button="@null"
+                    android:layout_height="wrap_content"
                     android:background="@android:color/transparent"
+                    android:button="@null"
                     android:checked="false"
-                    android:drawableEnd="@drawable/checkbox_selector"
-                    android:layout_height="wrap_content" />
+                    android:drawableEnd="@drawable/checkbox_selector" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/helpCenterLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -331,9 +338,9 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
+                    android:src="@drawable/_nfo_square"
 
-                    android:src="@drawable/_nfo_square" />
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -354,6 +361,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/privacyPolicyLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -365,9 +373,9 @@
                 <ImageView
                     android:layout_width="28dp"
                     android:layout_height="28dp"
-                    app:tint="@color/text_color"
+                    android:src="@drawable/danger_square"
 
-                    android:src="@drawable/danger_square" />
+                    app:tint="@color/text_color" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -399,9 +407,9 @@
 
                 <ImageView
                     android:layout_width="28dp"
-                    app:tint="@color/red"
                     android:layout_height="28dp"
-                    android:src="@drawable/logout" />
+                    android:src="@drawable/logout"
+                    app:tint="@color/red" />
 
                 <TextView
                     android:layout_width="0dp"

@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">电影</string>
+    <!--China language-->
+    <string name="app_name">Movie &amp; Trailers</string>
     <string name="login_image">登录图片</string>
     <string name="lets_you_in">让你进入</string>
     <string name="continue_with_facebook">继续使用Facebook</string>
@@ -21,7 +22,7 @@
     <string name="onboarding_image">入门图片</string>
     <string name="onboarding_gradient">入门渐变</string>
     <string name="get_started">开始</string>
-    <string name="welcome_to_mova">欢迎来到Mova</string>
+    <string name="welcome_to_mova">欢迎来到 App Movie &amp; Trailers</string>
     <string name="onboarding_description">本世纪最好的电影流媒体应用，让您的日子更加美好！</string>
     <string name="app_logo">应用logo</string>
     <string name="home">主页</string>
@@ -99,4 +100,6 @@
     <string name="english">英语</string>
     <string name="logout_message">您确定要注销吗？</string>
     <string name="yes_logout">是，注销</string>
+    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="account_name">账户</string>
 </resources>
