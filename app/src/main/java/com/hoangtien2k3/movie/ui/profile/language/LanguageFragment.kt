@@ -60,7 +60,7 @@ class LanguageFragment : Fragment(R.layout.fragment_language) {
                             }
                             is Resource.Error -> {
                                 requireActivity().showToast(
-                                    getString(com.hoangtien2k3.movie.R.string.error),
+                                    getString(R.string.error),
                                     response.throwable.localizedMessage ?: "Error",
                                     MotionToastStyle.ERROR
                                 )
@@ -96,7 +96,7 @@ class LanguageFragment : Fragment(R.layout.fragment_language) {
                                 languagesRecycler.gone()
 
                                 requireActivity().showToast(
-                                    getString(com.hoangtien2k3.movie.R.string.error),
+                                    getString(R.string.error),
                                     response.throwable.localizedMessage ?: "Error",
                                     MotionToastStyle.ERROR
                                 )
