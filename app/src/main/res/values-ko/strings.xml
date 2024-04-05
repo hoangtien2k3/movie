@@ -100,6 +100,22 @@
     <string name="english">영어</string>
     <string name="logout_message">로그아웃 하시겠습니까?</string>
     <string name="yes_logout">예, 로그아웃</string>
-    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="movie_trailers"><![CDATA[: 영화 및 예고편]]></string>
     <string name="account_name">계정</string>
+    <string name="help_center_contact">도움이 필요하시면 즉시 연락주세요</string>
+    <string name="support_facebook">Facebook Messenger</string>
+    <string name="support_zalo">Zalo Messenger</string>
+    <string name="connect">연결</string>
+    <string name="please_contact_system">시스템 오류가 발생한 경우에는 저희에게 연락 주시기 바랍니다</string>
+
+    <string name="policy_content">개인 정보 수집: \n우리는 애플리케이션의 저자 인 호앙 안 티엔 (닉네임: hoangtien2k3)의 지도 아래에서 필요한 개인 정보 만 수집하여 서비스를 제공하고 사용자 경험을 향상시키기로 약속합니다.
+    \n\n정보 사용: \n개인 정보는 저자의 지도와 통제하에 콘텐츠 제공, 서비스 업데이트 및 사용자 경험 개선에 사용됩니다.
+    \n\n정보 보안: \n우리는 저자의 지도 아래에서 적절한 보안 조치를 준수하여 사용자의 개인 정보를 손실 또는 무단 액세스로부터 보호합니다.
+    \n\n정보 공유: \n사용자의 개인 정보는 저자의 동의없이는 제 3 자와 공유되지 않습니다. 다만, 서비스 제공 및 법적 규정 준수가 필요한 경우를 제외하고.
+    \n\n사용자 권리: \n사용자는 시스템에서 자신의 개인 정보에 액세스하고 편집 또는 삭제할 권리가 있으며 저자에게 직접 요청이나 피드백을 보낼 수 있습니다.
+    \n\n법률 준수: \n저희는 저자의 감독하에 개인 데이터 보호 및 개인 정보 보호 정책에 관한 규정 및 법률을 준수하기로 약속합니다.
+    \n\n정책 변경: \n이 개인 정보 보호 정책은 개발 팀의 지원 아래에서 저자의 지도에 따라 시간이 지남에 따라 업데이트 또는 수정 될 수 있습니다.
+    </string>
+
+
 </resources>

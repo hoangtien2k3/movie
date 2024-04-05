@@ -27,7 +27,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <com.hoangtien2k3.movie.common.CustomViewPagerScroll
+                <com.hoangtien2k3.themoviedb.common.CustomViewPagerScroll
                     android:id="@+id/viewpagerPopularMovies"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -101,7 +101,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/notificationBtn"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white" />
+                    app:tint="@color/color_blue" />
 
                 <ImageView
                     android:id="@+id/notificationBtn"
@@ -112,7 +112,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white" />
+                    app:tint="@color/color_blue" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

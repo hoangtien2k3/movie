@@ -102,4 +102,12 @@
     <string name="yes_logout">Yes, Logout</string>
     <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
     <string name="account_name">Account</string>
+    <string name="help_center_contact">If you need any help, please contact us immediately</string>
+    <string name="support_facebook">Facebook messenger</string>
+    <string name="support_zalo">Zalo messenger</string>
+    <string name="connect">Connect</string>
+    <string name="please_contact_system">Please contact us if you encounter system errors</string>
+
+    <string name="policy_content">Personal Information Collection: \nWe, the development team under the guidance of Hoàng Anh Tiến (nickname: hoangtien2k3), the author of the application, commit to only collect necessary personal information to provide services and enhance user experience. \n\nInformation Usage: \nPersonal information will be used to provide content, update services, and improve user experience, under the guidance and control of the author. \n\nInformation Security: \nWe adhere to appropriate security measures under the guidance of the author to protect users\' personal information from loss or unauthorized access. \n\nInformation Sharing: \nUsers\' personal information will not be shared with any third party without the author\'s consent, except when necessary to provide services and comply with legal regulations. \n\nUser Rights: \nUsers have the right to access, edit, or delete their personal information from our system and may directly send requests or feedback to the author. \n\nLegal Compliance: \nWe commit to comply with regulations and laws on personal data protection and privacy policies under the author\'s supervision. \n\nPolicy Changes: \nThis privacy policy may be updated or modified over time under the author\'s guidance and support of the development team.</string>
+
 </resources>

@@ -100,6 +100,14 @@
     <string name="english">英語</string>
     <string name="logout_message">ログアウトしてもよろしいですか？</string>
     <string name="yes_logout">はい、ログアウト</string>
-    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="movie_trailers"><![CDATA[: 映画とトレーラー]]></string>
     <string name="account_name">アカウント</string>
+    <string name="help_center_contact">お困りの際は、すぐにお問い合わせください</string>
+    <string name="support_facebook">Facebook Messenger</string>
+    <string name="support_zalo">Zalo Messenger</string>
+    <string name="connect">接続</string>
+    <string name="please_contact_system">システムエラーが発生した場合は、お問い合わせください</string>
+
+    <string name="policy_content">個人情報の収集：\n私たちは、アプリケーションの著者であるホアン・アン・ティエン（ニックネーム：hoangtien2k3）の指導のもとで、サービスの提供とユーザー体験の向上のために必要な個人情報のみを収集することを約束します。\n\n情報の利用：\n個人情報は、著者の指導と制御の下で、コンテンツの提供、サービスの更新、およびユーザーエクスペリエンスの向上に利用されます。\n\n情報セキュリティ：\n私たちは、著者の指導のもと、適切なセキュリティ対策を講じ、ユーザーの個人情報を損失や不正アクセスから保護します。\n\n情報の共有：\nユーザーの個人情報は、著者の同意なしに第三者と共有されることはありません。ただし、サービスの提供および法的規制の遵守が必要な場合を除きます。\n\nユーザーの権利：\nユーザーは、システムから自分の個人情報にアクセスし、編集または削除する権利があり、著者に直接リクエストやフィードバックを送信することができます。\n\n法令順守：\n私たちは、著者の監督のもとで個人データ保護およびプライバシーポリシーに関する規制および法律を遵守することを約束します。\n\nポリシーの変更：\nこのプライバシーポリシーは、開発チームのサポートのもと、著者の指導に従って、時間の経過とともに更新または変更される場合があります。</string>
+
 </resources>

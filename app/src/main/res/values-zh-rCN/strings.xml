@@ -100,6 +100,14 @@
     <string name="english">英语</string>
     <string name="logout_message">您确定要注销吗？</string>
     <string name="yes_logout">是，注销</string>
-    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="movie_trailers"><![CDATA[: 电影与预告片]]></string>
     <string name="account_name">账户</string>
+    <string name="help_center_contact">如果您需要任何帮助，请立即联系我们</string>
+    <string name="support_facebook">Facebook Messenger</string>
+    <string name="support_zalo">Zalo Messenger</string>
+    <string name="connect">连接</string>
+    <string name="please_contact_system">如果您遇到系统错误，请联系我们</string>
+
+    <string name="policy_content">个人信息收集：\n我们承诺只收集必要的个人信息来提供服务和增强用户体验，在作者黄安添（昵称：hoangtien2k3）的指导下进行开发团队。\n\n信息使用：\n个人信息将用于提供内容、更新服务和改善用户体验，受作者指导和控制。\n\n信息安全：\n我们遵循作者的指导采取适当的安全措施来保护用户的个人信息免受丢失或未经授权的访问。\n\n信息共享：\n用户的个人信息将不会在没有作者同意的情况下与任何第三方共享，除非需要提供服务并遵守法律法规。\n\n用户权利：\n用户有权访问、编辑或删除他们在我们系统中的个人信息，并可以直接向作者发送请求或反馈。\n\n法律遵守：\n我们承诺遵守关于个人数据保护和隐私政策的规定和法律，受作者监督。\n\n政策变更：\n本隐私政策可能会根据作者的指导和开发团队的支持在时间上进行更新或修改。</string>
+
 </resources>

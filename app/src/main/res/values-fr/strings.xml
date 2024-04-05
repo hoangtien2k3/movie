@@ -100,6 +100,14 @@
     <string name="english">Anglais</string>
     <string name="logout_message">Êtes-vous sûr de vouloir vous déconnecter ?</string>
     <string name="yes_logout">Oui, Déconnexion</string>
-    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="movie_trailers"><![CDATA[: Films et Bandes-annonces]]></string>
     <string name="account_name">Compte</string>
+    <string name="help_center_contact">Si vous avez besoin d\'aide, veuillez nous contacter immédiatement</string>
+    <string name="support_facebook">Messagerie Facebook</string>
+    <string name="support_zalo">Messagerie Zalo</string>
+    <string name="connect">Connecter</string>
+    <string name="please_contact_system">Veuillez nous contacter si vous rencontrez des erreurs système</string>
+
+    <string name="policy_content">Collecte d\'informations personnelles : \nNous, l\'équipe de développement sous la direction de Hoàng Anh Tiến (surnom : hoangtien2k3), l\'auteur de l\'application, nous engageons à ne collecter que les informations personnelles nécessaires pour fournir des services et améliorer l\'expérience utilisateur. \n\nUtilisation des informations : \nLes informations personnelles seront utilisées pour fournir du contenu, mettre à jour les services et améliorer l\'expérience utilisateur, sous la direction et le contrôle de l\'auteur. \n\nSécurité des informations : \nNous respectons les mesures de sécurité appropriées sous la direction de l\'auteur pour protéger les informations personnelles des utilisateurs contre la perte ou l\'accès non autorisé. \n\nPartage d\'informations : \nLes informations personnelles des utilisateurs ne seront pas partagées avec des tiers sans le consentement de l\'auteur, sauf si cela est nécessaire pour fournir des services et se conformer à la réglementation légale. \n\nDroits des utilisateurs : \nLes utilisateurs ont le droit d\'accéder à, de modifier ou de supprimer leurs informations personnelles de notre système et peuvent envoyer directement des demandes ou des commentaires à l\'auteur. \n\nConformité légale : \nNous nous engageons à respecter les réglementations et lois sur la protection des données personnelles et les politiques de confidentialité sous la supervision de l\'auteur. \n\nChangements de politique : \nCette politique de confidentialité peut être mise à jour ou modifiée au fil du temps sous la direction de l\'auteur et avec le soutien de l\'équipe de développement.</string>
+
 </resources>

@@ -15,7 +15,7 @@ Mova is a TMDb mobile add that list Movie & Trailerss and series, shows their de
 
 ***Try latest Mova App in Google Play👇***
 
-[![](https://img.shields.io/badge/Mova-Google%20Play-brightgreen?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.hoangtien2k3.Movie & Trailers)
+[![](https://img.shields.io/badge/Mova-Google%20Play-brightgreen?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.hoangtien2k3.themoviedb & Trailers)
 
 
 ## 🛠 Built With

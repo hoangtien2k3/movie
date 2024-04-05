@@ -85,5 +85,23 @@
         app:spanCount="2"
         tools:listitem="@layout/item_movie_serie_now_playing" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/main_tabs"
+        app:backgroundTint="@color/color_tin"
+        app:borderWidth="0dp"
+        app:fabCustomSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundedShapeAppearance"
+        app:srcCompat="@drawable/ic_arrow_upward_white_24dp"
+        android:contentDescription="scrollUp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

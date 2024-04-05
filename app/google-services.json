@@ -1,45 +1,26 @@
 {
   "project_info": {
-    "project_number": "132200049737",
-    "firebase_url": "https://orchid-727a9-default-rtdb.firebaseio.com",
-    "project_id": "orchid-727a9",
-    "storage_bucket": "orchid-727a9.appspot.com"
+    "project_number": "143040309165",
+    "project_id": "movie-8a55d",
+    "storage_bucket": "movie-8a55d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:132200049737:android:1755afd1999f37d5a92398",
+        "mobilesdk_app_id": "1:143040309165:android:14e18f212a18b029d8a324",
         "android_client_info": {
-          "package_name": "com.hoangtien2k3.movie"
+          "package_name": "com.hoangtien2k3.themoviedb"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "132200049737-up38mn7j74682fr20b9h9l67vi9oag0n.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.hoangtien2k3.movie",
-            "certificate_hash": "031f7d2508bc9c01079651ff243f5fcdc346d9e3"
-          }
-        },
-        {
-          "client_id": "132200049737-u7g77m1dgorfdncmcj3hc0lruc0i9e32.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBDVDX64BFQl0B7rJ_h2uE2kXXMoBCEHJk"
+          "current_key": "AIzaSyC-V5z8PSadJkcEhveeCIgHwSJ1Bhngvb0"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "132200049737-u7g77m1dgorfdncmcj3hc0lruc0i9e32.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

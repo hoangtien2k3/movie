@@ -27,10 +27,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.hoangtien2k3.movie" />
-                  <option name="mobileSdkAppId" value="1:132200049737:android:1755afd1999f37d5a92398" />
-                  <option name="projectId" value="orchid-727a9" />
-                  <option name="projectNumber" value="132200049737" />
+                  <option name="appId" value="com.hoangtien2k3.themoviedb" />
+                  <option name="mobileSdkAppId" value="1:143040309165:android:14e18f212a18b029d8a324" />
+                  <option name="projectId" value="movie-8a55d" />
+                  <option name="projectNumber" value="143040309165" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -28,5 +28,6 @@
     <color name="second_btn_bg">#343840</color>
     <color name="second_btn_text">#ffffff</color>
     <color name="color_off_toggle">#343840</color>
-
+    <color name="color_tin">#FF9800</color>
+    <color name="main_tabs">#FF9800</color>
 </resources>

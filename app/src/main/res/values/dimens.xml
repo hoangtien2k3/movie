@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="marginBottom_zalo">110dp</dimen>
+    <dimen name="marginBottom_facebook">60dp</dimen>
+</resources>

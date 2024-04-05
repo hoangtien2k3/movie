@@ -100,6 +100,14 @@
     <string name="english">Englisch</string>
     <string name="logout_message">Möchten Sie sich wirklich abmelden?</string>
     <string name="yes_logout">Ja, ausloggen</string>
-    <string name="movie_trailers"><![CDATA[: Movie & Trailers]]></string>
+    <string name="movie_trailers"><![CDATA[: Filme & Trailer]]></string>
     <string name="account_name">Konto</string>
+    <string name="help_center_contact">Wenn Sie Hilfe benötigen, kontaktieren Sie uns bitte sofort</string>
+    <string name="support_facebook">Facebook Messenger</string>
+    <string name="support_zalo">Zalo Messenger</string>
+    <string name="connect">Verbinden</string>
+    <string name="please_contact_system">Bitte kontaktieren Sie uns, wenn Sie auf Systemfehler stoßen</string>
+
+    <string name="policy_content">Erhebung persönlicher Informationen: \nWir, das Entwicklungsteam unter der Leitung von Hoàng Anh Tiến (Spitzname: hoangtien2k3), der Autor der Anwendung, verpflichten uns, nur die für die Bereitstellung von Diensten und die Verbesserung der Benutzererfahrung erforderlichen persönlichen Informationen zu sammeln. \n\nVerwendung von Informationen: \nPersönliche Informationen werden verwendet, um Inhalte bereitzustellen, Dienste zu aktualisieren und die Benutzererfahrung unter der Leitung und Kontrolle des Autors zu verbessern. \n\nSicherheit der Informationen: \nWir respektieren angemessene Sicherheitsmaßnahmen unter der Leitung des Autors, um die persönlichen Informationen der Benutzer vor Verlust oder unbefugtem Zugriff zu schützen. \n\nInformationen teilen: \nDie persönlichen Informationen der Benutzer werden ohne die Zustimmung des Autors nicht mit Dritten geteilt, es sei denn, dies ist zur Bereitstellung von Diensten und zur Einhaltung gesetzlicher Vorschriften erforderlich. \n\nBenutzerrechte: \nBenutzer haben das Recht, auf ihre persönlichen Informationen in unserem System zuzugreifen, diese zu ändern oder zu löschen, und können Anfragen oder Kommentare direkt an den Autor senden. \n\nRechtliche Einhaltung: \nWir verpflichten uns, die Datenschutzbestimmungen und -gesetze unter der Aufsicht des Autors einzuhalten. \n\nÄnderungen an der Richtlinie: \nDiese Datenschutzrichtlinie kann unter der Leitung des Autors und mit Unterstützung des Entwicklungsteams im Laufe der Zeit aktualisiert oder geändert werden.</string>
+
 </resources>
