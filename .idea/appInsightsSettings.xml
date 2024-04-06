@@ -28,9 +28,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.hoangtien2k3.themoviedb" />
-                  <option name="mobileSdkAppId" value="1:143040309165:android:14e18f212a18b029d8a324" />
-                  <option name="projectId" value="movie-8a55d" />
-                  <option name="projectNumber" value="143040309165" />
+                  <option name="mobileSdkAppId" value="1:616407152383:android:1950111419a06a1cd8feca" />
+                  <option name="projectId" value="orchid-firebase-b80c7" />
+                  <option name="projectNumber" value="616407152383" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
