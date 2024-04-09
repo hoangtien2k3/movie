@@ -102,7 +102,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
                             is Resource.Success -> {
                                 emailTv.text = response.data.email
-                                displayNameTv.text = response.data.displayName ?: getString(R.string.account_name)
+                                displayNameTv.text = response.data.displayName
                                 userIv.loadImage(
                                     response.data.photoUrl.toString(),
                                     imageTypeEnum = ImageTypeEnum.CREDIT
@@ -150,7 +150,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
                             is Resource.Error -> {
                                 requireActivity().showToast(
-                                    getString(com.hoangtien2k3.themoviedb.R.string.error),
+                                    getString(R.string.error),
                                     response.throwable.localizedMessage ?: "Error",
                                     MotionToastStyle.ERROR
                                 )

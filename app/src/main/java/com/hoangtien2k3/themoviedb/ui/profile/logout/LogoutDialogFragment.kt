@@ -68,34 +68,32 @@ class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_
     }
 
     private fun collectData() {
-        with(binding) {
-            with(viewModel) {
+        with(viewModel) {
 
-                viewLifecycleOwner.lifecycleScope.launchWhenCreated {
-                    authResult.collectLatest { response ->
-                        when (response) {
-                            is Resource.Loading -> {
-                                LoadingScreen.displayLoading(requireContext(), false)
-                            }
-                            is Resource.Error -> {
-                                LoadingScreen.hideLoading()
-                                requireActivity().showToast(
-                                    getString(R.string.error),
-                                    response.throwable.localizedMessage ?: "Error",
-                                    MotionToastStyle.ERROR
-                                )
+            viewLifecycleOwner.lifecycleScope.launchWhenCreated {
+                authResult.collectLatest { response ->
+                    when (response) {
+                        is Resource.Loading -> {
+                            LoadingScreen.displayLoading(requireContext(), false)
+                        }
+                        is Resource.Error -> {
+                            LoadingScreen.hideLoading()
+                            requireActivity().showToast(
+                                getString(R.string.error),
+                                response.throwable.localizedMessage ?: "Error",
+                                MotionToastStyle.ERROR
+                            )
 
-                            }
-                            is Resource.Success -> {
-                                val action =
-                                    LogoutDialogFragmentDirections.actionLogoutDialogFragmentToSignInWithSocialFragment()
-                                findNavController().navigate(action)
+                        }
+                        is Resource.Success -> {
+                            val action =
+                                LogoutDialogFragmentDirections.actionLogoutDialogFragmentToSignInWithPasswordFragment()
+                            findNavController().navigate(action)
 
-                            }
                         }
                     }
-
                 }
+
             }
         }
     }

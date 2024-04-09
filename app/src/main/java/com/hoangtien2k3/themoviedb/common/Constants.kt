@@ -24,7 +24,6 @@ object Constants {
         const val FILTER_RESULT = "filterResult"
         const val POP_UP = "popUp"
         const val DELETED_POSITION = "deletedPosition"
-
     }
 
     object Filter {
@@ -43,7 +42,7 @@ object Constants {
 
     object Authentication {
         const val WEB_CLIENT_ID =
-            "824409577602-6qimbh36qk4hbup0q1pdpdqurprdb2a3.apps.googleusercontent.com"
+            "616407152383-io322211m5ut6cbmm27ekaaduo3b0qho.apps.googleusercontent.com"
         const val REQ_SIGN_IN_GOOGLE = -1
     }
 

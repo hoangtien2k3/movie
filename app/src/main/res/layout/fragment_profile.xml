@@ -63,9 +63,8 @@
             android:id="@+id/userIv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/custom_round_radio_btn"
             android:scaleType="centerCrop"
-            android:src="@drawable/profile" />
+            android:src="@drawable/dialog_profile" />
 
     </com.google.android.material.card.MaterialCardView>
 
@@ -77,6 +76,7 @@
         android:layout_marginTop="10dp"
         android:textColor="@color/text_color"
         android:textFontWeight="700"
+        android:text="@string/account_name"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

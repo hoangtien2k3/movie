@@ -130,10 +130,6 @@ class MainActivity : AppCompatActivity() {
                     binding.bottomNavigation.hideWithoutAnimation(binding.fragmentContainerView)
                 }
 
-                R.id.signInWithSocialFragment -> {
-                    binding.bottomNavigation.hideWithoutAnimation(binding.fragmentContainerView)
-                }
-
                 R.id.dialogFragment -> {
                     binding.bottomNavigation.hideWithoutAnimation(binding.fragmentContainerView)
                 }
