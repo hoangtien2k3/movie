@@ -102,7 +102,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
                             is Resource.Success -> {
                                 emailTv.text = response.data.email
-                                displayNameTv.text = response.data.displayName
+                                displayNameTv.text = response.data.displayName ?: getString(R.string.account_name)
                                 userIv.loadImage(
                                     response.data.photoUrl.toString(),
                                     imageTypeEnum = ImageTypeEnum.CREDIT

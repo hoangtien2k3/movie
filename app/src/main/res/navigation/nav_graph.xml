@@ -10,9 +10,6 @@
         android:name="com.hoangtien2k3.themoviedb.ui.authentication.signup.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up">
-        <action
-            android:id="@+id/action_signUpFragment_to_signInWithPasswordFragment"
-            app:destination="@id/signInWithPasswordFragment" />
     </fragment>
     <fragment
         android:id="@+id/signInWithPasswordFragment"

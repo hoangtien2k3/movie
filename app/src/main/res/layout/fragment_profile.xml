@@ -64,6 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
+            android:background="@drawable/rounded_btn_bordered"
             android:src="@drawable/dialog_profile" />
 
     </com.google.android.material.card.MaterialCardView>
@@ -80,8 +81,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userCard"
-        tools:text="Account Name" />
+        app:layout_constraintTop_toBottomOf="@+id/userCard" />
 
     <TextView
         android:id="@+id/emailTv"

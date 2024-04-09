@@ -11,7 +11,6 @@ import androidx.navigation.fragment.findNavController
 import com.hoangtien2k3.themoviedb.R
 import com.hoangtien2k3.themoviedb.common.*
 import com.hoangtien2k3.themoviedb.databinding.FragmentSignUpBinding
-import com.hoangtien2k3.themoviedb.ui.authentication.signinwithpassword.SignInWithPasswordFragmentDirections
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
 import www.sanju.motiontoast.MotionToastStyle
@@ -105,13 +104,11 @@ class SignUpFragment : Fragment(R.layout.fragment_sign_up) {
                                 getString(R.string.sign_up_success),
                                 MotionToastStyle.SUCCESS
                             )
-                            val action =
-                                SignInWithPasswordFragmentDirections.actionSignInWithPasswordFragmentToSignUpFragment()
-                            findNavController().navigate(action)
                         }
                     }
                 }
             }
+
         }
     }
 }
