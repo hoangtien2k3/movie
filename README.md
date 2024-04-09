@@ -1,6 +1,6 @@
 ![App Screenshot](Screenshots/banner_chplay.png)
 
-# Mova Kotlin Android App
+# Movie & Trailers Kotlin Android App
 
 <img src="Screenshots/logo.png" align="left" width="250" hspace="10" vspace="10">
    
@@ -14,24 +14,6 @@
 ***Try latest Mova App in Google Play👇***
 
 [![]()](https://play.google.com/store/apps/details?id=com.hoangtien2k3.themoviedb & Trailers)
-
-
-## 🛠 Built With
-- [MVVM with Clean Architecture](https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture)
-- [Coroutines & Flow](https://developer.android.com/kotlin/flow)
-- [Hilt for Dependency Injection](https://developer.android.com/training/dependency-injection/hilt-android)
-- [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started)
-- [Room Database](https://developer.android.com/training/data-storage/room)
-- [Firebase Authentication](https://firebase.google.com/docs/auth)
-- [Glide](https://github.com/bumptech/glide)
-- [Retrofit](https://square.github.io/retrofit)
-- [Gson](https://github.com/google/gson)
-- [Lottie](https://github.com/LottieFiles/lottie-android)
-- [Paging 3](https://proandroiddev.com/paging-3-easier-way-to-pagination-part-1-584cad1f4f61)
-- [ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)
-- [Coil](https://coil-kt.github.io/coil/)
-- [Youtube Player](https://github.com/PierfrancescoSoffritti/android-youtube-player)
-- [TheMovie & TrailersDb(Tmdb) API](https://developers.theMovie & Trailersdb.org/3)
 
 ## 📷 Screenshots
 
