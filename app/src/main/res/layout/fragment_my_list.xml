@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/search"
             android:src="@drawable/search"
-            app:tint="@color/color_blue"
+            app:tint="@color/text_color"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

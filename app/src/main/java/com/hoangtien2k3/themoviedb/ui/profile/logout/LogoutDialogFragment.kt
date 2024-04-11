@@ -21,7 +21,6 @@ import www.sanju.motiontoast.MotionToastStyle
 
 @AndroidEntryPoint
 class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_dialog) {
-    @RequiresApi(Build.VERSION_CODES.M)
     override fun onStart() {
         super.onStart()
 
@@ -55,7 +54,6 @@ class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_
     fun initUI() {
         with(binding) {
             with(viewModel) {
-
                 cancelBtn.setOnClickListener {
                     findNavController().popBackStack()
                 }
@@ -64,12 +62,10 @@ class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_
                 }
             }
         }
-
     }
 
     private fun collectData() {
         with(viewModel) {
-
             viewLifecycleOwner.lifecycleScope.launchWhenCreated {
                 authResult.collectLatest { response ->
                     when (response) {
@@ -83,17 +79,14 @@ class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_
                                 response.throwable.localizedMessage ?: "Error",
                                 MotionToastStyle.ERROR
                             )
-
                         }
                         is Resource.Success -> {
                             val action =
-                                LogoutDialogFragmentDirections.actionLogoutDialogFragmentToSignInWithPasswordFragment()
+                                LogoutDialogFragmentDirections.actionLogoutDialogFragmentToOnBoardingFragment()
                             findNavController().navigate(action)
-
                         }
                     }
                 }
-
             }
         }
     }

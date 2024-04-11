@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/background"
     android:layout_height="match_parent"
+    android:background="@color/background"
     android:padding="5dp"
     tools:context=".ui.authentication.signup.SignUpFragment">
 
@@ -64,11 +64,11 @@
         android:text="@string/create_your_account"
         android:textColor="@color/text_color"
         android:textFontWeight="600"
-        tools:targetApi="p"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginImage" />
+        app:layout_constraintTop_toBottomOf="@+id/loginImage"
+        tools:targetApi="p" />
 
     <EditText
         android:id="@+id/emailEditText"
@@ -136,7 +136,6 @@
             app:tint="@color/inactive_input" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
     <com.google.android.material.checkbox.MaterialCheckBox
         android:id="@+id/rememberMeCheckBox"
         android:layout_width="wrap_content"
@@ -147,9 +146,9 @@
         android:text="@string/remember_me"
         android:textFontWeight="600"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordLayout" />
-
 
     <com.github.sablasvegas.shadout.Shadout
         android:id="@+id/shadout"
@@ -184,7 +183,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="10dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:weightSum="2"
@@ -243,7 +242,7 @@
             android:text="@string/sign_in"
             android:textColor="@color/red"
             android:textFontWeight="600"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

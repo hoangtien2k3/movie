@@ -41,15 +41,14 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_btn"
                 android:backgroundTint="@color/stroke_color" />
-
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/delete_message"
                 android:textAlignment="center"
                 android:textColor="@color/text_color"
@@ -198,7 +197,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/rounded_btn"
                 android:backgroundTint="@color/stroke_color" />
 

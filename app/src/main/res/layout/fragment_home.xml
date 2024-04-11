@@ -101,7 +101,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/notificationBtn"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/color_blue" />
+                    app:tint="@color/text_color" />
 
                 <ImageView
                     android:id="@+id/notificationBtn"
@@ -112,7 +112,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/color_blue" />
+                    app:tint="@color/text_color" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
