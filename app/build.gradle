@@ -17,8 +17,8 @@ android {
         applicationId "com.hoangtien2k3.themoviedb"
         minSdk 29
         targetSdk 34
-        versionCode 5
-        versionName "1.0.5"
+        versionCode 7
+        versionName "1.0.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -110,7 +110,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
     implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
     implementation 'com.google.firebase:firebase-firestore-ktx'
-    implementation 'com.google.android.gms:play-services-auth:20.4.1'
+    implementation 'com.google.android.gms:play-services-auth:21.0.0'
     implementation 'com.facebook.android:facebook-android-sdk:latest.release'
 
     // Timber
