@@ -327,7 +327,9 @@ suspend fun Context.imageDownloadSaveFile(photoName: String, url: String): Strin
 
         val outputStream =
             this.contentResolver.openOutputStream(Uri.parse(imageUri))
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
+        if (outputStream != null) {
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
+        }
         withContext(Dispatchers.IO) {
             outputStream!!.close()
         }
