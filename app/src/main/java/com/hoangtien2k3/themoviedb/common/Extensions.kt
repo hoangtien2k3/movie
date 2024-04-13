@@ -255,13 +255,12 @@ fun ImageView.loadImage(url: String?, isBlur: Boolean? = false, imageTypeEnum: I
         ImageTypeEnum.BACKDROP -> R.drawable.gray_placeholder
         ImageTypeEnum.POSTER -> R.drawable.gray_placeholder
         ImageTypeEnum.YOUTUBE -> R.drawable.gray_placeholder
-        ImageTypeEnum.CREDIT -> R.drawable.profile_filled
+        ImageTypeEnum.CREDIT -> R.drawable.dialog_profile
         ImageTypeEnum.LOCAL -> R.drawable.gray_placeholder
         ImageTypeEnum.FLAG -> R.drawable.gray_placeholder
     }
 
     url?.let {
-
         val urlString = when (imageTypeEnum) {
             ImageTypeEnum.BACKDROP -> getBackDropPath(url)
             ImageTypeEnum.POSTER -> getPosterPath(url)

@@ -10,6 +10,7 @@ import androidx.navigation.fragment.navArgs
 import com.google.android.material.tabs.TabLayoutMediator
 import com.hoangtien2k3.themoviedb.R
 import com.hoangtien2k3.themoviedb.common.*
+import com.hoangtien2k3.themoviedb.common.enums.ImageTypeEnum
 import com.hoangtien2k3.themoviedb.databinding.FragmentPersonDetailBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest
@@ -70,7 +71,7 @@ class PersonDetailFragment : Fragment(R.layout.fragment_person_detail) {
 
                                     imageIv.loadImage(
                                         this.profilePath,
-                                        imageTypeEnum = com.hoangtien2k3.themoviedb.common.enums.ImageTypeEnum.CREDIT
+                                        imageTypeEnum = ImageTypeEnum.CREDIT
                                     )
 
                                     nameTv.text = this.name
