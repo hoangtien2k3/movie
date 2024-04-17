@@ -15,8 +15,7 @@ import javax.inject.Inject
 @HiltViewModel
 class PersonDetailViewModel @Inject constructor(
     private val getPersonDetailsUseCase: GetPersonDetailsUseCase
-) :
-    ViewModel() {
+) : ViewModel() {
 
     private val _personDetails = MutableSharedFlow<Resource<PersonDetailsUI>>()
     val personDetails

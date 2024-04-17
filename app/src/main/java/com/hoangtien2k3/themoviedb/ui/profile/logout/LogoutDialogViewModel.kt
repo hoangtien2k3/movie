@@ -14,7 +14,6 @@ import javax.inject.Inject
 @HiltViewModel
 class LogoutDialogViewModel @Inject constructor(private val signOutUseCase: SignOut) : ViewModel() {
 
-
     private val _authResult = MutableSharedFlow<Resource<Boolean>>()
     val authResult
         get() = _authResult.asSharedFlow()
