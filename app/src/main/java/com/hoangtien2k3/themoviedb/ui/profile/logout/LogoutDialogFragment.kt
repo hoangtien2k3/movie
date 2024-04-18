@@ -86,9 +86,8 @@ class LogoutDialogFragment : BottomSheetDialogFragment(R.layout.fragment_logout_
                         }
                         is Resource.Success -> {
                             val action =
-                                LogoutDialogFragmentDirections.actionLogoutDialogFragmentToSignInWithSocialFragment()
+                                LogoutDialogFragmentDirections.actionLogoutDialogFragmentToOnBoardingFragment()
                             findNavController().navigate(action)
-
                         }
                     }
                 }

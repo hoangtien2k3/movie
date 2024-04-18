@@ -426,8 +426,8 @@
         android:label="fragment_logout_dialog"
         tools:layout="@layout/fragment_logout_dialog">
         <action
-            android:id="@+id/action_logoutDialogFragment_to_signInWithSocialFragment"
-            app:destination="@id/signInWithSocialFragment"
+            android:id="@+id/action_logoutDialogFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment"
             app:enterAnim="@anim/enter"
             app:exitAnim="@anim/exit"
             app:popEnterAnim="@anim/pop_enter"
