@@ -2,20 +2,21 @@
 
 # Movie & Trailers Kotlin Android App
 
-<img src="Screenshots/logo.png" align="left" width="250" hspace="10" vspace="10">
+<img src="Screenshots/logo.png" align="left" width="200" hspace="10" vspace="10">
    
-`Movie & Trailers` is a TMDb mobile add that list Movie & Trailerss and series, shows their details, you can even watch trailers, save Movie & Trailerss to list for watch later</br></br></br></br></br></br></br></br></br></br>
 
-## 📎 Releases
+📎 Releases
 ***Try latest Mova App APK in Releases Page👇***
 
 [![](https://img.shields.io/badge/Movie%20&%20Trailers-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/hoangtien2k3/movie/blob/master/app/release/app-release.apk)
 
 ***Try latest Mova App in Google Play👇***
 
-[![]()](https://play.google.com/store/apps/details?id=com.hoangtien2k3.themoviedb & Trailers)
+[https://play.google.com/store/apps/details?id=com.hoangtien2k3.themoviedb](https://play.google.com/store/apps/details?id=com.hoangtien2k3.themoviedb)
 
-## 📷 Screenshots
+📷 Screenshots
+
+## 
 
 ![](Screenshots/1.png)
 ![](Screenshots/2.png)
@@ -27,7 +28,7 @@
 
 ## 🎨 Design 
 
-[![Figma](https://img.shields.io/badge/Mova-Figma-black?style=for-the-badge&logo=figma)](https://www.figma.com/community/file/1216311757237992126/Mova---Movie & Trailers-Streaming-App-UI-Kit)
+[![Figma](https://img.shields.io/badge/Mova-Figma-black?style=for-the-badge&logo=figma)](https://www.figma.com/community/file/1216311757237992126/mova-movie-streaming-app-ui-kit)
 </br>
 
 ## ♥ Contributions ✨
