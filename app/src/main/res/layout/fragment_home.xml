@@ -27,7 +27,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <com.hoangtien2k3.themoviedb.common.CustomViewPagerScroll
+                <com.dcht.themoviedb.common.CustomViewPagerScroll
                     android:id="@+id/viewpagerPopularMovies"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

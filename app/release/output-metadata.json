@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.hoangtien2k3.themoviedb",
+  "applicationId": "com.dcht.themoviedb",
   "variantName": "release",
   "elements": [
     {

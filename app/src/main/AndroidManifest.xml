@@ -34,7 +34,7 @@
         </activity>
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.hoangtien2k3.themoviedb.fileProvider"
+            android:authorities="com.dcht.themoviedb.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

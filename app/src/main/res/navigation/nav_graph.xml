@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/signUpFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.authentication.signup.SignUpFragment"
+        android:name="com.dcht.themoviedb.ui.authentication.signup.SignUpFragment"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up">
     </fragment>
     <fragment
         android:id="@+id/signInWithPasswordFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.authentication.signinwithpassword.SignInWithPasswordFragment"
+        android:name="com.dcht.themoviedb.ui.authentication.signinwithpassword.SignInWithPasswordFragment"
         android:label="fragment_sign_in_with_password"
         tools:layout="@layout/fragment_sign_in_with_password">
         <action
@@ -29,7 +29,7 @@
     </fragment>
     <fragment
         android:id="@+id/onBoardingFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.onboarding.OnBoardingFragment"
+        android:name="com.dcht.themoviedb.ui.onboarding.OnBoardingFragment"
         android:label="fragment_on_boarding"
         tools:layout="@layout/fragment_on_boarding">
         <action
@@ -42,7 +42,7 @@
     </fragment>
     <fragment
         android:id="@+id/splashScreenFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.splash.SplashScreenFragment"
+        android:name="com.dcht.themoviedb.ui.splash.SplashScreenFragment"
         android:label="fragment_splash_screen"
         tools:layout="@layout/fragment_splash_screen">
         <action
@@ -66,7 +66,7 @@
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.home.HomeFragment"
+        android:name="com.dcht.themoviedb.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -99,7 +99,7 @@
     </fragment>
     <fragment
         android:id="@+id/exploreFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.explore.ExploreFragment"
+        android:name="com.dcht.themoviedb.ui.explore.ExploreFragment"
         android:label="fragment_explore"
         tools:layout="@layout/fragment_explore">
         <action
@@ -115,7 +115,7 @@
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.profile.ProfileFragment"
+        android:name="com.dcht.themoviedb.ui.profile.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile">
         <action
@@ -152,12 +152,12 @@
     </fragment>
     <dialog
         android:id="@+id/dialogFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.dialog.DialogFragment"
+        android:name="com.dcht.themoviedb.ui.dialog.DialogFragment"
         android:label="fragment_dialog"
         tools:layout="@layout/fragment_dialog">
         <argument
             android:name="dialogArgs"
-            app:argType="com.hoangtien2k3.themoviedb.data.model.DialogArguments" />
+            app:argType="com.dcht.themoviedb.data.model.DialogArguments" />
         <action
             android:id="@+id/action_dialogFragment_to_homeFragment"
             app:destination="@id/homeFragment"
@@ -170,7 +170,7 @@
     </dialog>
     <fragment
         android:id="@+id/nowPlayingMoviesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.home.now_playing_movies.NowPlayingMoviesFragment"
+        android:name="com.dcht.themoviedb.ui.home.now_playing_movies.NowPlayingMoviesFragment"
         android:label="fragment_now_playing_movies"
         tools:layout="@layout/fragment_now_playing_movies">
         <action
@@ -183,7 +183,7 @@
     </fragment>
     <fragment
         android:id="@+id/nowPlayingSeriesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.home.now_playing_series.NowPlayingSeriesFragment"
+        android:name="com.dcht.themoviedb.ui.home.now_playing_series.NowPlayingSeriesFragment"
         android:label="fragment_now_playing_series"
         tools:layout="@layout/fragment_now_playing_series">
         <action
@@ -196,16 +196,16 @@
     </fragment>
     <dialog
         android:id="@+id/filterFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.filter.FilterFragment"
+        android:name="com.dcht.themoviedb.ui.filter.FilterFragment"
         android:label="fragment_filter"
         tools:layout="@layout/fragment_filter">
         <argument
             android:name="filterModel"
-            app:argType="com.hoangtien2k3.themoviedb.data.model.FilterResult" />
+            app:argType="com.dcht.themoviedb.data.model.FilterResult" />
     </dialog>
     <fragment
         android:id="@+id/myListFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.mylist.MyListFragment"
+        android:name="com.dcht.themoviedb.ui.mylist.MyListFragment"
         android:label="fragment_my_list"
         tools:layout="@layout/fragment_my_list">
         <action
@@ -218,7 +218,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailsFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.details.DetailsFragment"
+        android:name="com.dcht.themoviedb.ui.details.DetailsFragment"
         android:label="fragment_details"
         tools:layout="@layout/fragment_details">
         <argument
@@ -226,7 +226,7 @@
             app:argType="integer" />
         <argument
             android:name="mediaType"
-            app:argType="com.hoangtien2k3.themoviedb.common.enums.MediaTypeEnum" />
+            app:argType="com.dcht.themoviedb.common.enums.MediaTypeEnum" />
         <action
             android:id="@+id/action_detailsFragment_self"
             app:destination="@id/detailsFragment"
@@ -253,17 +253,17 @@
     </fragment>
     <fragment
         android:id="@+id/imagesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.details.images.ImagesFragment"
+        android:name="com.dcht.themoviedb.ui.details.images.ImagesFragment"
         android:label="fragment_images"
         tools:layout="@layout/fragment_images" />
     <fragment
         android:id="@+id/trailersFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.details.trailers.TrailersFragment"
+        android:name="com.dcht.themoviedb.ui.details.trailers.TrailersFragment"
         android:label="fragment_trailers"
         tools:layout="@layout/fragment_trailers" />
     <fragment
         android:id="@+id/similarFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.details.similar.SimilarFragment"
+        android:name="com.dcht.themoviedb.ui.details.similar.SimilarFragment"
         android:label="fragment_similar"
         tools:layout="@layout/fragment_similar">
         <action
@@ -276,7 +276,7 @@
     </fragment>
     <fragment
         android:id="@+id/videoPlayerFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.player.VideoPlayerFragment"
+        android:name="com.dcht.themoviedb.ui.player.VideoPlayerFragment"
         android:label="fragment_video_player"
         tools:layout="@layout/fragment_video_player">
         <argument
@@ -289,20 +289,20 @@
             app:argType="integer" />
         <argument
             android:name="mediaType"
-            app:argType="com.hoangtien2k3.themoviedb.common.enums.MediaTypeEnum" />
+            app:argType="com.dcht.themoviedb.common.enums.MediaTypeEnum" />
     </fragment>
     <dialog
         android:id="@+id/downloadDialogFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.dialog.download.DownloadDialogFragment"
+        android:name="com.dcht.themoviedb.ui.dialog.download.DownloadDialogFragment"
         android:label="fragment_download_dialog"
         tools:layout="@layout/fragment_download_dialog">
         <argument
             android:name="download"
-            app:argType="com.hoangtien2k3.themoviedb.data.model.local.Download" />
+            app:argType="com.dcht.themoviedb.data.model.local.Download" />
     </dialog>
     <fragment
         android:id="@+id/downloadFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.download.DownloadFragment"
+        android:name="com.dcht.themoviedb.ui.download.DownloadFragment"
         android:label="fragment_download"
         tools:layout="@layout/fragment_download">
         <action
@@ -321,19 +321,19 @@
     </fragment>
     <dialog
         android:id="@+id/deleteDownloadFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.download.delete.DeleteDownloadFragment"
+        android:name="com.dcht.themoviedb.ui.download.delete.DeleteDownloadFragment"
         android:label="fragment_delete_download"
         tools:layout="@layout/fragment_delete_download">
         <argument
             android:name="download"
-            app:argType="com.hoangtien2k3.themoviedb.data.model.local.Download" />
+            app:argType="com.dcht.themoviedb.data.model.local.Download" />
         <argument
             android:name="position"
             app:argType="integer" />
     </dialog>
     <fragment
         android:id="@+id/personDetailFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.person.PersonDetailFragment"
+        android:name="com.dcht.themoviedb.ui.person.PersonDetailFragment"
         android:label="fragment_person_detail"
         tools:layout="@layout/fragment_person_detail">
         <argument
@@ -356,47 +356,47 @@
     </fragment>
     <fragment
         android:id="@+id/personImagesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.person.images.PersonImagesFragment"
+        android:name="com.dcht.themoviedb.ui.person.images.PersonImagesFragment"
         android:label="fragment_person_images"
         tools:layout="@layout/fragment_person_images" />
     <fragment
         android:id="@+id/personSeriesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.person.series.PersonSeriesFragment"
+        android:name="com.dcht.themoviedb.ui.person.series.PersonSeriesFragment"
         android:label="fragment_person_series"
         tools:layout="@layout/fragment_person_series" />
     <fragment
         android:id="@+id/personMoviesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.person.movies.PersonMoviesFragment"
+        android:name="com.dcht.themoviedb.ui.person.movies.PersonMoviesFragment"
         android:label="fragment_person_movies"
         tools:layout="@layout/fragment_person_movies" />
     <fragment
         android:id="@+id/previewImagesFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.images.PreviewImagesFragment"
+        android:name="com.dcht.themoviedb.ui.images.PreviewImagesFragment"
         android:label="fragment_preview_images"
         tools:layout="@layout/fragment_preview_images">
         <argument
             android:name="imageList"
-            app:argType="com.hoangtien2k3.themoviedb.domain.model.ImageUI[]" />
+            app:argType="com.dcht.themoviedb.domain.model.ImageUI[]" />
         <argument
             android:name="position"
             app:argType="integer" />
         <argument
             android:name="imageType"
-            app:argType="com.hoangtien2k3.themoviedb.common.enums.ImageTypeEnum" />
+            app:argType="com.dcht.themoviedb.common.enums.ImageTypeEnum" />
     </fragment>
     <fragment
         android:id="@+id/languageFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.profile.language.LanguageFragment"
+        android:name="com.dcht.themoviedb.ui.profile.language.LanguageFragment"
         android:label="fragment_language"
         tools:layout="@layout/fragment_language" />
     <fragment
         android:id="@+id/policyFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.profile.policy.PolicyFragment"
+        android:name="com.dcht.themoviedb.ui.profile.policy.PolicyFragment"
         android:label="fragment_policy"
         tools:layout="@layout/fragment_policy" />
     <dialog
         android:id="@+id/logoutDialogFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.profile.logout.LogoutDialogFragment"
+        android:name="com.dcht.themoviedb.ui.profile.logout.LogoutDialogFragment"
         android:label="fragment_logout_dialog"
         tools:layout="@layout/fragment_logout_dialog">
         <action
@@ -411,7 +411,7 @@
     </dialog>
     <dialog
         android:id="@+id/helpCenterDialogFragment"
-        android:name="com.hoangtien2k3.themoviedb.ui.profile.helpcenter.HelpCenterContactFragment"
+        android:name="com.dcht.themoviedb.ui.profile.helpcenter.HelpCenterContactFragment"
         android:label="fragment_dialog_contact"
         tools:layout="@layout/fragment_dialog_contact">
     </dialog>

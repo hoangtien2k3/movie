@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:616407152383:android:1950111419a06a1cd8feca",
         "android_client_info": {
-          "package_name": "com.hoangtien2k3.themoviedb"
+          "package_name": "com.dcht.themoviedb"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "616407152383-io322211m5ut6cbmm27ekaaduo3b0qho.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.hoangtien2k3.themoviedb",
+            "package_name": "com.dcht.themoviedb",
             "certificate_hash": "031f7d2508bc9c01079651ff243f5fcdc346d9e3"
           }
         },
